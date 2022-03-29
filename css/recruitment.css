@@ -1,0 +1,69 @@
+.recruiters{
+    width: 100%;
+    height: 50vh;
+  //  background-color:rgba(68, 67, 67, 0.1);
+    //margin: 10px 50px 0px 0px;
+}
+
+.recruitBox{
+    display:inline-block;
+    position: relative;
+    height: 15vh;
+    //background-color:rgb(100, 100, 100);
+    width: 15%;
+    margin: 10px 50px 0px 19px;
+
+}
+
+ .amit h1{
+    text-align: center;
+     padding:20px;
+}
+
+#recImg{
+    background: url("../images/microfuzzy.jpg");
+    background-size: 29vh;
+    background-repeat: no-repeat;
+    mix-blend-mode:multiply;
+}
+
+#recImg1{
+    background: url("../images/larson.jpg");
+    background-size: 29vh;
+    background-repeat: no-repeat;
+    mix-blend-mode: multiply;
+    
+}
+
+#recImg2{
+    background: url("../images/Infosys.jpg");
+    background-size: 29vh;
+    background-repeat: no-repeat;
+    mix-blend-mode: multiply;
+
+    
+}
+#recImg3{
+    background: url("../images/amazon.jpg");
+    background-size: 29vh;
+    background-repeat: no-repeat;
+    mix-blend-mode: multiply;
+
+    
+}
+#recImg4{
+    background: url("../images/TCS.jpg");
+    background-size: 29vh;
+    background-repeat: no-repeat;
+    mix-blend-mode: multiply;
+
+    
+}
+#recImg5{
+    background: url("../images/flipcart.jpg");
+    background-size: 29vh;
+    background-repeat: no-repeat;
+    mix-blend-mode: multiply;
+
+    
+}

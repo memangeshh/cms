@@ -1,0 +1,115 @@
+.helpDesk{
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    //background:url("../images/main-banner.jpeg");
+    //background:rgba(0,0,0,0.65);
+    background:#e9e9ec;
+}
+.desk{
+    margin: 0px 0px 0px 100px;
+}
+/*.helpDesk::before{
+    content: '';
+    position: absolute;
+    top:0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background:url("main-banner.jpeg");
+    background-position: top center;
+    opacity: 0.6;
+    z-index: -1;
+}*/
+.helpDesk h1{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    //border-bottom: 5px solid rgba(0, 0, 0, 0.4);
+    letter-spacing: 2px;
+    background-color: red;
+    /* Create the gradient. */
+    background-image: linear-gradient(10deg, #f69e10 , #8c00ff);//bb00fa
+    /* Set the background size and repeat properties. */
+    background-size: 100%;
+    background-repeat: repeat;
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+
+.subHelpdesk{
+    display: inline-block;
+    //border: 2px solid black;
+    width: 18%;
+    //padding: 15px;
+    height: 28vh;
+   margin: 20px 0px 0px 10px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+    border-bottom:15px solid gray;
+    border-radius: 3px;
+    background-color:white;
+
+}
+
+#img1{
+    background: url("../images/Admission_1-removebg-preview.png");
+    background-size: 20vh;
+    background-repeat: no-repeat;
+    margin: 25px 0px 0px 45px;
+    height: 15vh;
+    //mix-blend-mode: multiply;
+
+}
+
+#img2{
+    background: url("../images/scholar-removebg-preview.png");
+    background-size: 20vh;
+    background-repeat: no-repeat;
+    margin: 25px 0px 0px 45px;
+    height: 15vh;
+    //mix-blend-mode: multiply;   
+
+}
+
+#img3{
+    background: url("../images/clg-fee-removebg-preview.png");
+    background-size: 18.5vh;
+    background-repeat: no-repeat;
+    margin: 25px 0px 0px 47px;
+    height: 14vh;
+    padding: 5px;
+    //mix-blend-mode: multiply;
+
+
+}
+
+#img4{
+    background: url("../images/notice-logo-removebg-preview.png");
+    background-size: 20vh;
+    background-repeat: no-repeat;
+    margin: 25px 0px 0px 45px;
+    height: 15vh;
+    //mix-blend-mode: multiply;
+
+}
+
+#img5{
+    background: url("../images/grev-logo2-copy.png");
+    background-size: 15vh;
+    background-repeat: no-repeat;
+    margin: 25px 0px 0px 70px;
+    height: 15vh;
+    //mix-blend-mode: multiply;
+
+}
+ .subHelpdesk h2{
+  margin: 5px 0px 0px 13px;
+   color:gray;
+   text-align: center;
+}
